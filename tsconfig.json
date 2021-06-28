@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noImplicitAny": false,
+        "sourceMap": true, 
+        "outDir":"./lib/",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "es2020", "dom"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.test.ts"
+    ]
+}
